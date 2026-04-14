@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: infra/docker/api.Dockerfile
+  worker:
+    build:
+      context: ..
+      dockerfile: infra/docker/worker.Dockerfile
+  client:
+    build:
+      context: ..
+      dockerfile: infra/docker/client.Dockerfile
