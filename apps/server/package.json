@@ -1,5 +1,5 @@
 {
-  "name": "@dts/api",
+  "name": "@dts/server",
   "private": true,
   "scripts": {
     "dev": "tsx watch src/server.ts",
